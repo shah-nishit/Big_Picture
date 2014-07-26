@@ -11,27 +11,18 @@
 		BF56966319832DC5008B6072 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF56966219832DC5008B6072 /* CoreGraphics.framework */; };
 		BF56966519832DC5008B6072 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF56966419832DC5008B6072 /* UIKit.framework */; };
 		BF56966B19832DC5008B6072 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF56966919832DC5008B6072 /* InfoPlist.strings */; };
-		BF56966D19832DC5008B6072 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF56966C19832DC5008B6072 /* main.m */; };
-		BF56967119832DC5008B6072 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF56967019832DC5008B6072 /* AppDelegate.m */; };
+		BF56966D19832DC5008B6072 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF56966C19832DC5008B6072 /* main.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BF56967119832DC5008B6072 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF56967019832DC5008B6072 /* AppDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		BF56967419832DC5008B6072 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF56967219832DC5008B6072 /* Main.storyboard */; };
-		BF56967719832DC5008B6072 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF56967619832DC5008B6072 /* ViewController.m */; };
+		BF56967719832DC5008B6072 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF56967619832DC5008B6072 /* ViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		BF56967919832DC5008B6072 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF56967819832DC5008B6072 /* Images.xcassets */; };
-		BF56968019832DC5008B6072 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF56967F19832DC5008B6072 /* XCTest.framework */; };
-		BF56968119832DC5008B6072 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF56966019832DC5008B6072 /* Foundation.framework */; };
-		BF56968219832DC5008B6072 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF56966419832DC5008B6072 /* UIKit.framework */; };
-		BF56968A19832DC5008B6072 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF56968819832DC5008B6072 /* InfoPlist.strings */; };
-		BF56968C19832DC5008B6072 /* Big_PictureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF56968B19832DC5008B6072 /* Big_PictureTests.m */; };
+		BF56969619832DF1008B6072 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF56969519832DF1008B6072 /* 2.jpg */; };
+		BF56969A19832E1A008B6072 /* remove.png in Resources */ = {isa = PBXBuildFile; fileRef = BF56969919832E1A008B6072 /* remove.png */; };
+		BF56969E19832E2D008B6072 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BF56969B19832E2D008B6072 /* Default.png */; };
+		BF56969F19832E2D008B6072 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF56969C19832E2D008B6072 /* Default@2x.png */; };
+		BF5696A019832E2D008B6072 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF56969D19832E2D008B6072 /* Default-568h@2x.png */; };
+		BF5696A41983300C008B6072 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF5696A31983300C008B6072 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		BF56968319832DC5008B6072 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BF56965519832DC5008B6072 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BF56965C19832DC5008B6072;
-			remoteInfo = Big_Picture;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		BF56965D19832DC5008B6072 /* Big_Picture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Big_Picture.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,11 +39,15 @@
 		BF56967519832DC5008B6072 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BF56967619832DC5008B6072 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BF56967819832DC5008B6072 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		BF56967E19832DC5008B6072 /* Big_PictureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Big_PictureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF56967F19832DC5008B6072 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		BF56968719832DC5008B6072 /* Big_PictureTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Big_PictureTests-Info.plist"; sourceTree = "<group>"; };
 		BF56968919832DC5008B6072 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BF56968B19832DC5008B6072 /* Big_PictureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Big_PictureTests.m; sourceTree = "<group>"; };
+		BF56969519832DF1008B6072 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2.jpg; path = ../../../Documents/2.jpg; sourceTree = "<group>"; };
+		BF56969919832E1A008B6072 /* remove.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = remove.png; path = ../../BigPicture/BigPicture/remove.png; sourceTree = "<group>"; };
+		BF56969B19832E2D008B6072 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../../BigPicture/BigPicture/Default.png; sourceTree = "<group>"; };
+		BF56969C19832E2D008B6072 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../../BigPicture/BigPicture/Default@2x.png"; sourceTree = "<group>"; };
+		BF56969D19832E2D008B6072 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../../BigPicture/BigPicture/Default-568h@2x.png"; sourceTree = "<group>"; };
+		BF5696A31983300C008B6072 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,19 +55,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF5696A41983300C008B6072 /* QuartzCore.framework in Frameworks */,
 				BF56966319832DC5008B6072 /* CoreGraphics.framework in Frameworks */,
 				BF56966519832DC5008B6072 /* UIKit.framework in Frameworks */,
 				BF56966119832DC5008B6072 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BF56967B19832DC5008B6072 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BF56968019832DC5008B6072 /* XCTest.framework in Frameworks */,
-				BF56968219832DC5008B6072 /* UIKit.framework in Frameworks */,
-				BF56968119832DC5008B6072 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,7 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				BF56965D19832DC5008B6072 /* Big_Picture.app */,
-				BF56967E19832DC5008B6072 /* Big_PictureTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,10 +86,10 @@
 		BF56965F19832DC5008B6072 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BF5696A31983300C008B6072 /* QuartzCore.framework */,
 				BF56966019832DC5008B6072 /* Foundation.framework */,
 				BF56966219832DC5008B6072 /* CoreGraphics.framework */,
 				BF56966419832DC5008B6072 /* UIKit.framework */,
-				BF56967F19832DC5008B6072 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,6 +97,8 @@
 		BF56966619832DC5008B6072 /* Big_Picture */ = {
 			isa = PBXGroup;
 			children = (
+				BF56969919832E1A008B6072 /* remove.png */,
+				BF56969519832DF1008B6072 /* 2.jpg */,
 				BF56966F19832DC5008B6072 /* AppDelegate.h */,
 				BF56967019832DC5008B6072 /* AppDelegate.m */,
 				BF56967219832DC5008B6072 /* Main.storyboard */,
@@ -127,6 +114,9 @@
 			isa = PBXGroup;
 			children = (
 				BF56966819832DC5008B6072 /* Big_Picture-Info.plist */,
+				BF56969B19832E2D008B6072 /* Default.png */,
+				BF56969C19832E2D008B6072 /* Default@2x.png */,
+				BF56969D19832E2D008B6072 /* Default-568h@2x.png */,
 				BF56966919832DC5008B6072 /* InfoPlist.strings */,
 				BF56966C19832DC5008B6072 /* main.m */,
 				BF56966E19832DC5008B6072 /* Big_Picture-Prefix.pch */,
@@ -172,24 +162,6 @@
 			productReference = BF56965D19832DC5008B6072 /* Big_Picture.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BF56967D19832DC5008B6072 /* Big_PictureTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BF56969219832DC5008B6072 /* Build configuration list for PBXNativeTarget "Big_PictureTests" */;
-			buildPhases = (
-				BF56967A19832DC5008B6072 /* Sources */,
-				BF56967B19832DC5008B6072 /* Frameworks */,
-				BF56967C19832DC5008B6072 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BF56968419832DC5008B6072 /* PBXTargetDependency */,
-			);
-			name = Big_PictureTests;
-			productName = Big_PictureTests;
-			productReference = BF56967E19832DC5008B6072 /* Big_PictureTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -198,11 +170,6 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Group A of IPCT, Lambton College";
-				TargetAttributes = {
-					BF56967D19832DC5008B6072 = {
-						TestTargetID = BF56965C19832DC5008B6072;
-					};
-				};
 			};
 			buildConfigurationList = BF56965819832DC5008B6072 /* Build configuration list for PBXProject "Big_Picture" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -218,7 +185,6 @@
 			projectRoot = "";
 			targets = (
 				BF56965C19832DC5008B6072 /* Big_Picture */,
-				BF56967D19832DC5008B6072 /* Big_PictureTests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,16 +195,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF56967919832DC5008B6072 /* Images.xcassets in Resources */,
+				BF56969E19832E2D008B6072 /* Default.png in Resources */,
 				BF56966B19832DC5008B6072 /* InfoPlist.strings in Resources */,
+				BF56969619832DF1008B6072 /* 2.jpg in Resources */,
 				BF56967419832DC5008B6072 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BF56967C19832DC5008B6072 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BF56968A19832DC5008B6072 /* InfoPlist.strings in Resources */,
+				BF5696A019832E2D008B6072 /* Default-568h@2x.png in Resources */,
+				BF56969F19832E2D008B6072 /* Default@2x.png in Resources */,
+				BF56969A19832E1A008B6072 /* remove.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,23 +218,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BF56967A19832DC5008B6072 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BF56968C19832DC5008B6072 /* Big_PictureTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		BF56968419832DC5008B6072 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BF56965C19832DC5008B6072 /* Big_Picture */;
-			targetProxy = BF56968319832DC5008B6072 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		BF56966919832DC5008B6072 /* InfoPlist.strings */ = {
@@ -397,46 +344,6 @@
 			};
 			name = Release;
 		};
-		BF56969319832DC5008B6072 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Big_Picture.app/Big_Picture";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Big_Picture/Big_Picture-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Big_PictureTests/Big_PictureTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		BF56969419832DC5008B6072 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Big_Picture.app/Big_Picture";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Big_Picture/Big_Picture-Prefix.pch";
-				INFOPLIST_FILE = "Big_PictureTests/Big_PictureTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -456,14 +363,7 @@
 				BF56969119832DC5008B6072 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		BF56969219832DC5008B6072 /* Build configuration list for PBXNativeTarget "Big_PictureTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BF56969319832DC5008B6072 /* Debug */,
-				BF56969419832DC5008B6072 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

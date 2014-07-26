@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  Big_Picture
 //
-//  Created by JUNGHYEON KIM on 2014-07-25.
+//  Created by DHANESH PATEL on 2014-07-25.
 //  Copyright (c) 2014 Group A of IPCT, Lambton College. All rights reserved.
 //
 
@@ -10,9 +10,22 @@
 
 @implementation AppDelegate
 
+- (void)dealloc
+{	
+    [_window release];
+    [_viewController release];
+    [super dealloc];
+}
+
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
+    // Override point for customization after application launch.
+    self.viewController = [[[ViewController alloc] initWithNibName:@"ViewController" bundle:nil] autorelease];
+    self.window.rootViewController = self.viewController;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 							
